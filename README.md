@@ -16,7 +16,7 @@
 | Chapter-09   |   Reading and Writing Files                             |    Read                |
 | Chapter-10   |   Organizing Files                                      |    Read and Done       |
 | Chapter-11   |   Debugging                                             |    Read and Done       |
-| Chapter-12   |   Web Scraping                                          |                        |
+| Chapter-12   |   Web Scraping                                          |    Read                |
 | Chapter-13   |   Working with Excel Spreadsheets                       |                        |
 | Chapter-14   |   Working with Google Spreadsheets                      |                        |
 | Chapter-15   |   Working with PDF and Word Documents                   |                        | 
