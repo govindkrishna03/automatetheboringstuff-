@@ -19,7 +19,7 @@
 | Chapter-12   |   Web Scraping                                          |    Read                |
 | Chapter-13   |   Working with Excel Spreadsheets                       |                        |
 | Chapter-14   |   Working with Google Spreadsheets                      |                        |
-| Chapter-15   |   Working with PDF and Word Documents                   |                        | 
+| Chapter-15   |   Working with PDF and Word Documents                   |    Read and Did 1      | 
 | Chapter-16   |   Working with CSV Files and JSON Data                  |                        |
 | Chapter-17   |   Keeping Time, Scheduling Tasks, and Launching Programs|                        |
 | Chapter-18   |   Sending Email and Text Messages                       |                        |
