@@ -16,13 +16,13 @@
 | [Chapter-09](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-09)   |   Reading and Writing Files                             |    Read and Did some   |
 | [Chapter-10](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-10)   |   Organizing Files                                      |    Read and Done       |
 | [Chapter-11](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-11)   |   Debugging                                             |    Read and Done       |
-| [Chapter-12]   |   Web Scraping                                          |    Read                |
+| Chapter-12   |   Web Scraping                                          |    Read                |
 | [Chapter-13](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-13)   |   Working with Excel Spreadsheets                       |    Read and Done       |
-| [Chapter-14]   |   Working with Google Spreadsheets                      |                        |
+| Chapter-14   |   Working with Google Spreadsheets                      |                        |
 | [Chapter-15](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-15)   |   Working with PDF and Word Documents                   |    Read and Did 1      | 
 | [Chapter-16](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-16)   |   Working with CSV Files and JSON Data                  |                        |
-| [Chapter-17]   |   Keeping Time, Scheduling Tasks, and Launching Programs|                        |
-| [Chapter-18]   |   Sending Email and Text Messages                       |                        |
-| [Chapter-19]   |   Manipulating Images                                   |                        |          
+| Chapter-17   |   Keeping Time, Scheduling Tasks, and Launching Programs|                        |
+| Chapter-18   |   Sending Email and Text Messages                       |                        |
+| Chapter-19   |   Manipulating Images                                   |                        |          
 | [Chapter-20](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-20)  |   Controlling the Keyboard and Mouse with GUI Automation|    Did 1               |
 
