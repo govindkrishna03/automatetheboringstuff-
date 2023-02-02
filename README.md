@@ -5,7 +5,7 @@
 
 |  Tasks List  |               Description                               |         Status         |
 | -------------| --------------------------------------------------------| ---------------------- | 
-| Chapter-01   |   Python Basics                                         |    Read and Done       |
+| [Chapter-01](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-0)   |   Python Basics                                         |    Read and Done       |
 | Chapter-02   |   Flow Control                                          |    Read and Done       |
 | Chapter-03   |   Functions                                             |    Read and Done       |
 | Chapter-04   |   Lists                                                 |    Read and Done       |
