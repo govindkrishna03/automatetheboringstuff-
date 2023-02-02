@@ -24,5 +24,5 @@
 | [Chapter-17]   |   Keeping Time, Scheduling Tasks, and Launching Programs|                        |
 | [Chapter-18]   |   Sending Email and Text Messages                       |                        |
 | [Chapter-19]   |   Manipulating Images                                   |                        |          
-| [Chapter-20]https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-20  |   Controlling the Keyboard and Mouse with GUI Automation|    Did 1               |
+| [Chapter-20](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-20)  |   Controlling the Keyboard and Mouse with GUI Automation|    Did 1               |
 
