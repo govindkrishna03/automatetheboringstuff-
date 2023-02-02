@@ -4,22 +4,18 @@ import re
 import sys
 
 
-password = '1234'
+password = sys.argv[1]
 
-os.chdir(r'/home/govind/Downloads')
+os.chdir(r'/home/govind/automatetheboringstuff/Chapter-15')
 path = os.getcwd()
-
-
 for folder, subfolders, files in os.walk(path):
     for file in files:
-        
         if file.endswith(('.pdf', '.PDF')):
             print('Encrypting ' + file + '...')
             pdf = open(os.path.join(folder, file), 'rb')
             pdf_reader = PyPDF2.PdfFileReader(pdf)
             pdf_writer = PyPDF2.PdfFileWriter()
-            pdf_writer.encrypt(password)
-            
+            pdf_writer.encrypt(sys.argv[1])
             for page_num in range(pdf_reader.numPages):
                 page_obj = pdf_reader.getPage(page_num)
                 pdf_writer.addPage(page_obj)
@@ -28,6 +24,7 @@ for folder, subfolders, files in os.walk(path):
             pdf_writer.write(new_pdf)
             pdf.close()
             new_pdf.close()
+
 
 for folder, subfolders, files in os.walk(path):
     for file in files:
