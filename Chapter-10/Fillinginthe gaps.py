@@ -1,36 +1,39 @@
-import os
-from pathlib import Path
-import re
-al = 0
-l = []
-s=[]
-files = []
-for folderName, subfolders, filenames in os.walk(f"{Path.home()}/home/govind/automatetheboringhub/"):
-    print('The current folder is ' + folderName)
+import os, re, shutil
+def fillGap(folder,prefix):
 
-    for subfolder in subfolders:
-        print(folderName + ': ' + subfolder)
 
-    for filename in filenames:
-        print(folderName + ': '+ filename)
-        p=Path(folderName+'/'+filename)
-        x = re.compile(r'\d*\d')
-        y = x.search(p.stem)
-        l.append(y.group())
-   
-        s.append(p.stem)
-        files.append(p.stem)
-    print(l)
-    l.sort()
-    s.sort()
-    files.sort()
 
-    for x in range(len(l)):
-        b = '{:03}'.format(al+1)
-        c = f"{b}"
-        if c != l[x]:
-            l[x] = c
-        s[x] = f"spam{l[x]}"
-        os.rename(f"{Path.home()}/home/govind/automatetheboringhub/{files[al]}.txt",f"{Path.home()}/home/govind/automatetheboringhub/{s[al]}.txt")
-        al += 1
-    break
+    fileRegex = re.compile(r'(%s)((\d)(\d)(\d))\.txt' % prefix)
+
+    folder = os.path.abspath(folder)
+
+
+    os.chdir(folder)  
+
+    fileNames = list()
+    for filename in os.listdir(folder):
+        if re.search(fileRegex, filename):
+            fileNames.append(filename)
+
+    fileNames.sort()
+    print(fileNames)
+    for i in range(len(fileNames)):
+        mo = re.search(fileRegex, fileNames[i])
+        if int(mo.group(2)) == i + 1:
+            continue
+        if i + 1 < 10:
+            shutil.copy
+            newFileName =prefix + '00' + str(i + 1) + '.txt'
+            shutil.copy(fileNames[i], newFileName)
+            os.unlink(fileNames[i])
+        elif i + 1 < 100:
+            shutil.copy(fileNames[i], prefix + '0' + str(i+1) + '.txt')
+            os.unlink(fileNames[i])
+        else:
+            shutil.copy(fileNames[i], prefix + str(i+1) + '.txt')
+            os.unlink(fileNames[i])
+
+folder = '/home/govind/automatetheboringstuff/Chapter-10'
+prefix = 'spam'
+
+fillGap(folder, prefix)

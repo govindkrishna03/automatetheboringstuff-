@@ -1,5 +1,5 @@
 import re
-text=open('/home/govind/automatetheboringstuff/Chapter-9/Multiclipboard.txt','r')
+text=open('/home/govind/automatetheboringstuff/Chapter-09/Multiclipboard.txt','r')
 content = text.read()
 words =list(content.split())
 text.close
@@ -7,7 +7,7 @@ adj=re.compile(r'ADJECTIVE')
 noun=re.compile(r'NOUN')
 verb=re.compile(r'VERB')
 adverb=re.compile(r'ADVERB')
-text_result=open('/home/govind/automatetheboringstuff/Chapter-9/Multiclipboardresult.txt','w')
+text_result=open('/home/govind/automatetheboringstuff/Chapter-09/Multiclipboardresult.txt','w')
 text_result_string=" "
 for i in words:
     if adj.match(i):
