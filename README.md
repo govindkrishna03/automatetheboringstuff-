@@ -7,12 +7,12 @@
 | -------------| --------------------------------------------------------| ---------------------- | 
 | [Chapter-01](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-0)   |   Python Basics                                         |    Read and Done       |
 | [Chapter-02]   |   Flow Control                                          |    Read and Done       |
-| [Chapter-03]   |   Functions                                             |    Read and Done       |
-| [Chapter-04]   |   Lists                                                 |    Read and Done       |
-| [Chapter-05]   |   Dictionaries and Structuring Data                     |    Read and Did 1      |
-| [Chapter-06]   |   Manipulating Strings                                  |    Read and Did 1      |
-| [Chapter-07]   |   Pattern Matching with Regular Expressions             |    Read and Done       |
-| [Chapter-08]   |   Input Validation                                      |    Read and Done       |
+| [Chapter-03](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-03)   |   Functions                                             |    Read and Done       |
+| [Chapter-04](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-04)   |   Lists                                                 |    Read and Done       |
+| [Chapter-05](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-05)   |   Dictionaries and Structuring Data                     |    Read and Did 1      |
+| [Chapter-06](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-06)   |   Manipulating Strings                                  |    Read and Did 1      |
+| [Chapter-07](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-07)   |   Pattern Matching with Regular Expressions             |    Read and Done       |
+| [Chapter-08](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-08)   |   Input Validation                                      |    Read and Done       |
 | [Chapter-09](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-09)   |   Reading and Writing Files                             |    Read and Did some   |
 | [Chapter-10](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-10)   |   Organizing Files                                      |    Read and Done       |
 | [Chapter-11](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-11)   |   Debugging                                             |    Read and Done       |
