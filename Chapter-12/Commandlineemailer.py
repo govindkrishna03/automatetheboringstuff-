@@ -1,0 +1,32 @@
+import time
+from  selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+email_username = input('What is your username?\n')
+email_password = input('What is your password?\n')
+email_recipient = input('Who would you like to send an email to?\n')
+email_subject = input('What is the subject of the email?\n')
+email_body = input('What would you like to say?\n')
+browser=webdriver.Firefox()
+browser.get('http://mail.google.com')
+login_elem = browser.find_elements(By.ID,'#identifierId')
+login_elem.send_keys(email_username)
+next_elem = browser.find_elements(By.ID,'#identifierNext')
+next_elem.click()
+time.sleep(3)
+password_elem = browser.find_elements(By.ID,'#password')
+password_elem.send_keys(email_password)
+pw_next_elem = browser.find_elements(By.ID,'#passwordNext')
+pw_next_elem.click()
+time.sleep(3)
+html_elem = browser.find_elements(By.TAG_NAME,'html')
+html_elem.send_keys('c')
+html_elem.send_keys(Keys.TAB)
+html_elem.send_keys(email_recipient)
+html_elem.send_keys(Keys.TAB)
+html_elem.send_keys(email_subject)
+html_elem.send_keys(Keys.TAB)
+html_elem.send_keys(email_body)
+html_elem.send_keys(Keys.ENTER)
+
+print('Email was sent.')
