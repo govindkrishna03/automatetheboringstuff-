@@ -20,7 +20,7 @@
 | [Chapter-13](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-13)   |   Working with Excel Spreadsheets                       |    Done       |
 | Chapter-14   |   Working with Google Spreadsheets                      | Not Done               |
 | [Chapter-15](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-15)   |   Working with PDF and Word Documents                   |    Done      | 
-| [Chapter-16](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-16)   |   Working with CSV Files and JSON Data                  |                        |
+| [Chapter-16](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-16)   |   Working with CSV Files and JSON Data                  |   Done      |
 | [Chapter-17](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-17)   |   Keeping Time, Scheduling Tasks, and Launching Programs|       Done             |
 | [Chapter-18](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-18)   |   Sending Email and Text Messages                       |        Done             |
 | [Chapter-19](https://github.com/govindkrishna03/automatetheboringstuff-/tree/main/Chapter-19)   |   Manipulating Images                                   |    Read  And Done      |          
