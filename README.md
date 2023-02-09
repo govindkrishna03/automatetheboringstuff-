@@ -1,6 +1,6 @@
 
 # Hey I am Govind Krishna of S1 CSE
-# automatetheboringstuff-
+# Automatetheboringstuff-
 
 ## These are the projects that i did after reading the book 'Automate the boring stuff'. It was of great worth. I learnt many new things in python language and did some projects. 
 
